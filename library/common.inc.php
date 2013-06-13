@@ -6,7 +6,7 @@ define('SITE_ROOT',DOC_ROOT.'/Bollywood/trunk/');           //output-->  /var/ww
 define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Bollywood/trunk/');   //output-->    http://localhost/Bollywood/        \
 
 define('IMAGE_PATH',SITE_PATH.'images/');    		//output-->                http://localhost/Bollywood/images/
-echo IMAGE_PATH;
+//echo IMAGE_PATH;
 define('CSS_PATH',SITE_PATH.'css/');         		//output-->                http://localhost/Bollywood/css/
 define('JS_PATH',SITE_PATH.'js/');           		//output-->                http://localhost/Bollywood/js/
 define('LIBRARY_ROOT',SITE_ROOT.'library/'); 		//output-->                /var/wwwmvc/library/

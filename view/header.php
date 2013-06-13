@@ -1,10 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-<head>  
-   <div id="mine">
-		
-		<img src="<?php echo IMAGE_PATH;?>bck.jpg" alt="HEADER IMAGE" style="background-repeat:repeat-y;" /> 
-   </div>
+<head>
+<style>
+body
+{
+background-image:url("<?php echo IMAGE_PATH;?>bck.jpg");
+background-repeat:repeat-x;
+}
+</style>
+</head>
 
-
+<body>
+<p id="mine"></p>
+</body>
+</html>
