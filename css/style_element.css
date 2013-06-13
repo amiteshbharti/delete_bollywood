@@ -1,0 +1,58 @@
+table p{
+			  	font-family:"Times New Roman",Georgia,Serif;
+				font-size:16px;
+				}
+div.background
+						{
+								width:500px;
+								height:250px;
+								background:url('images/captcha.jpg') repeat;
+								border:2px solid black;
+								margin-left:30%;
+						}
+					      div.transbox
+						{
+								width:400px;
+								height:180px;
+								margin:30px 50px;
+								background-color:#ffffff;
+								border:1px solid black;
+								opacity:0.8;
+								filter:alpha(opacity=60); /* For IE8 and earlier */
+								
+								
+						}
+					      div.transbox p
+						{
+								margin:30px 40px;
+								font-weight:bold;
+								color:#555555;
+								
+						}
+						 div.transbox p table 
+						 {
+								 font-size: larger;
+								 font-family: serif;
+								 color: rgb(0,0,255);	
+						 }
+						 
+						 .captcha_code_table
+						 {
+								  font-size: larger;
+								 font-family: serif;
+								 font-weight:bold;
+								 color:  rgb(0,0,255);
+								 background-color: #cccccc;
+						 }
+				               #captcha_body
+					       {
+								width:100%;
+								height:100%;
+								/*background:url('images/captcha2.jpg') repeat;*/
+								border:2px solid black;
+								background-color:cceeee;
+					       }
+					       .captcha_button
+					       {
+								border:2px solid black;
+					       }

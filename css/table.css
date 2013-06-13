@@ -1,0 +1,60 @@
+table.table_question
+{
+background-color:#BABABA;
+border-spacing:1;
+font:16px Georgia, serif;
+padding:14px;
+border-radius:2px;
+}
+
+th.table_question_th
+{
+color:#5CA6FA;
+background:#FFFFFF;
+background: -moz-linear-gradient(top,  #FFFFFF 0%, #FFFFFF 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+background: -webkit-linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%);
+background: -o-linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%);
+background: -ms-linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%);
+background: linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF',GradientType=0s);
+font-weight:100;
+padding:0;
+text-align:left;
+vertical-align:middle;
+}
+
+tr.table_question_tr
+{
+color:#000000;
+font-weight:bold;
+}
+
+td.table_question_cell
+{
+background:#FFFFFF;
+padding:11px 11px 10px 10px;
+text-align:center;
+vertical-align:middle;
+}
+
+tr.table_question_tr:first-child td.table_question_cell:first-child
+{
+border-top-left-radius:2px;
+}
+
+tr.table_question_tr:first-child td.table_question_cell:last-child
+{
+border-top-right-radius:2px;
+}
+
+tr.table_question_tr:last-child td.table_question_cell:first-child
+{
+border-bottom-left-radius:2px;
+}
+
+tr.table_question_tr:last-child td.table_question_cell:last-child
+{
+border-bottom-right-radius:2px;
+}
+
