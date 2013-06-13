@@ -1,6 +1,7 @@
 <?php
-include_once($_SERVER['DOCUMENT_ROOT'].'/Bollywood/library/common.inc.php');
-include_once($_SERVER['DOCUMENT_ROOT'].'/Bollywood/library/constents.php');
+include_once($_SERVER['DOCUMENT_ROOT'].'/Bollywood/trunk/library/common.inc.php');
+//echo $_SERVER['DOCUMENT_ROOT'];
+include_once($_SERVER['DOCUMENT_ROOT'].'/Bollywood/trunk/library/constents.php');
 if(isset($_GET['controller']) && !empty($_GET['controller'])){
       $controller =$_GET['controller'];
 }else{
@@ -18,7 +19,7 @@ if(isset($_GET['function']) && !empty($_GET['function'])){
 
 $controller=strtolower($controller);
 
-$fn = SITE_ROOT.'controller/'.$controller . '.php';
+$fn = SITE_ROOT.'/controller/'.$controller . '.php';
 //echo $fn;
 //echo SITE_ROOT.'controller/'.$controller . '.php';
 

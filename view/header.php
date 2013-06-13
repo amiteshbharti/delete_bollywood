@@ -4,7 +4,7 @@
 <head>  
    <div id="mine">
 		
-		<img src="<?php echo IMAGE_PATH;?>bck.jpg" alt="HEADER IMAGE"/> 
+		<img src="<?php echo IMAGE_PATH;?>bck.jpg" alt="HEADER IMAGE" style="background-repeat:repeat-y;" /> 
    </div>
 
 

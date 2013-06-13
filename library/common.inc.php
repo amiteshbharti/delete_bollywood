@@ -1,14 +1,17 @@
 <?php
 define('DOC_ROOT',$_SERVER['DOCUMENT_ROOT']);  				//output-->   /var/www
 
-define('SITE_ROOT',DOC_ROOT.'/Bollywood/');           //output-->  /var/www/main_project/
+define('SITE_ROOT',DOC_ROOT.'/Bollywood/trunk/');           //output-->  /var/www/main_project/
 //echo SITE_ROOT; 
-define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Bollywood/');   //output-->    http://localhost/Bollywood/        
+define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Bollywood/trunk/');   //output-->    http://localhost/Bollywood/        \
+
 define('IMAGE_PATH',SITE_PATH.'images/');    		//output-->                http://localhost/Bollywood/images/
+echo IMAGE_PATH;
 define('CSS_PATH',SITE_PATH.'css/');         		//output-->                http://localhost/Bollywood/css/
 define('JS_PATH',SITE_PATH.'js/');           		//output-->                http://localhost/Bollywood/js/
 define('LIBRARY_ROOT',SITE_ROOT.'library/'); 		//output-->                /var/wwwmvc/library/
 define('VIEW_PATH',SITE_ROOT.'view/');       		//output-->                /var/wwwmvc/view/
+//echo VIEW_PATH;
 define('MODEL_PATH',SITE_ROOT.'model/');     		//output-->                /var/wwwmvc/model/
 // define('username',$_REQUEST['username']);
 // define('password',$_REQUEST['passwd']);
